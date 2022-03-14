@@ -1,4 +1,19 @@
 /* Use this file to use your own styles*/
+.funky-text {
+	Color: #FFFFFF
+}
+
+.header {
+	Color: #F58C6E
+}
+
+.Myname {
+	font-family: 'Cormorant Garamond', serif;
+}
+
+.Name {
+	font: 'Cormorant Garamond', serif;
+}
 
 /* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');

@@ -54,8 +54,8 @@
           A container to wrap around your name and tagline. Full-width at small size, then columns of increasing size.
         -->
         <div class="col-12 col-sm-8 col-md-9 col-lg-10 my-3 header-content">
-          <h1 class="fw-bolder">Melanie van Hoof</h1>
-          <h5 class="fst-italic tagline">Creative Business student&nbsp;&nbsp;</h5>
+          <h1 class="fw-bolder funky-text Myname">Melanie van Hoof</h1>
+          <h5 class="fst-italic tagline funky-text Myname">Creative Business student&nbsp;&nbsp;</h5>
         </div>
       </header>
 
@@ -74,8 +74,8 @@
           <!--
             <section> is yet another semantic element. The first one is for professional experience.
           -->
-          <section class="my-3 biography-section">
-            <h2>Professional Experience</h2>
+          <section class="my-3 biography-section head">
+            <h2 class="header Myname fw-bolder text-decoration-underline"> <strong>Professional Experience</strong></h2>
             <!--
               Each list item (li) in the unordered list (ul) below will be one job.
               "list-unstyled" is a class that hides the bullet points of a list.
@@ -89,8 +89,8 @@
                   <img class="biography-logo mw-100 d-block mx-auto" src="images/jumbo.png
 																		  " alt="Company logo" width="80">
                 </div>
-                <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
-                  <h4>Cashier, Jumbo Foodmarket</h4>
+                <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10 Myname">
+                  <h4><strong>Cashier, Jumbo Foodmarket</strong></h4>
                   <h5>&nbsp;May 2018 - now</h5>
                   <!-- This entry doesn't have a list of achievements, but you can copy-paste the one from above -->
                 </div>
@@ -102,8 +102,8 @@
                 <!-- We're using a grid inside a grid so we can align logos and text -->
                   <img class="biography-logo mw-100 d-block mx-auto" src="images/jumbo.png" alt="Company logo" width="80">
                 </div>
-                <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
-                  <h4>Stocker, Jumbo Foodmarket</h4>
+                <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10 Myname">
+                  <h4 class="fw-bold">Stocker, Jumbo Foodmarket</h4>
                   <h5>&nbsp;March 2017 -May 2018</h5>
                   <!-- This entry doesn't have a list of achievements, but you can copy-paste the one from above -->
                 </div>
@@ -114,7 +114,7 @@
           <!-- We're done with jobs, let's move on to schools -->
 
           <section class="my-3 biography-section">
-            <h2>Education</h2>
+            <h2 class="header Myname fw-bold text-decoration-underline"><strong>Education</strong></h2>
             <ul class="biography-list list-unstyled">
 
               <!-- Top item in education. And by "top", I mean a Bachelor in Creative Business at BUas. -->
@@ -122,9 +122,9 @@
                 <div class="logo-container col-3 col-sm-2 col-md-3 col-lg-2">
                   <img class="biography-logo mw-100 d-block mx-auto" src="images/schools/logo-buas.svg" alt="School logo" width="120">
                 </div>
-                <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
+                <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10 Myname">
                   <h4>BA in Creative Business, Breda University of Applied Sciences</h4>
-                  <h5>2020 –&nbsp;now</h5>
+                  <h5><em>2020 –&nbsp;now</em></h5>
                   <!-- Use the list below to talk about minors, exchanges, extra-curricular activities. -->
                   <ul class="biography-details list-unstyled">
                     <li>Specialised in Audio Visual&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</li>
@@ -137,11 +137,11 @@
                 <div class="logo-container col-3 col-sm-2 col-md-3 col-lg-2">
                   <img class="biography-logo mw-100 d-block mx-auto" src="images/newman .png" alt="School logo" width="80">
                 </div>
-                <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
+                <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10 Myname">
                   <h4>High School Diploma Mavo, Newman College</h4>
-                  <h5>2018</h5>
+                  <h5><em>2020</em></h5>
                   <ul class="biography-details list-unstyled">
-                    <li>Audiovisual media specialization</li>
+                    <li>Economy and society specialization</li>
                   </ul>
                 </div>
               </li>
@@ -151,11 +151,11 @@
                 <div class="logo-container col-3 col-sm-2 col-md-3 col-lg-2">
                   <img class="biography-logo mw-100 d-block mx-auto" src="images/newman .png" alt="School logo" width="80">
                 </div>
-                <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
+                <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10 Myname">
                   <h4>High School Diploma Havo, Newman College</h4>
-                  <h5>2020</h5>
+                  <h5><em>2018</em></h5>
                   <ul class="biography-details list-unstyled">
-                    <li>Economy and society specialization</li>
+                    <li>Audiovisual media specialization</li>
                   </ul>
                </div>
               </li>
@@ -175,7 +175,7 @@
 
           <!-- The first block will be contact details -->
           <section class="my-3 aside-section">
-            <h2>Contact</h2>
+            <h2 class="Myname text-decoration-underline"><strong>Contact</strong></h2>
             <!--
               A list of all your contact details.
               There are more icons in the images/icons folder, have a look if you want to add your LinkedIn or TikTok profile.
@@ -184,31 +184,31 @@
             -->
             <ul class="contact-list list-unstyled">
               <li class="contact-item">
-                <a class="d-flex align-items-center" href="mailto:201783@buas.nl" target="_blank">
+                <a class="d-flex align-items-center Myname" href="mailto:201783@buas.nl" target="_blank">
                   <img class="contact-icon" src="images/icons/envelope.svg" alt="Email">
                   201783@buas.nl
                 </a>
               </li>
               <li class="contact-item">
-                <a class="d-flex align-items-center" href="https://www.facebook.com/melanie.vanhoof" target="_blank">
+                <a class="d-flex align-items-center Myname" href="https://www.facebook.com/melanie.vanhoof" target="_blank">
                   <img class="contact-icon" src="images/icons/facebook.svg" alt="Facebook">
                   Facebook Profile
                 </a>
               </li>
 				 <li class="contact-item">
-                <a class="d-flex align-items-center" href="https://www.instagram.com/melanievhoof/" target="_blank">
+                <a class="d-flex align-items-center Myname" href="https://www.instagram.com/melanievhoof/" target="_blank">
                   <img class="contact-icon" src="images/icons/instagram.svg" alt="Facebook">
                   Instagram Profile
                 </a>
               </li>
               <li class="contact-item">
-                <a class="d-flex align-items-center" href="https://github.com/MelanievanHoof" target="_blank">
+                <a class="d-flex align-items-center Myname" href="https://github.com/MelanievanHoof" target="_blank">
                   <img class="contact-icon" src="images/icons/github.svg" alt="LinkedIn">
                   GitHub Profile
                 </a>
               </li>
               <li class="contact-item">
-                <a class="d-flex align-items-center" href="tel:+31683025784" target="_blank">
+                <a class="d-flex align-items-center Myname" href="tel:+31683025784" target="_blank">
                   <img class="contact-icon" src="images/icons/phone.svg" alt="Mobile Phone">
                   +31 6 83025784
                 </a>
@@ -219,31 +219,31 @@
           <!-- End of contact details, moving on to languages -->
 
           <section class="my-3 aside-section">
-            <h2>Languages</h2>
+            <h2><strong class="Myname text-decoration-underline">Languages</strong></h2>
             <!-- Each item in the list is a language. Modify, add or remove depending on what you speak -->
             <ul class="language-list list-unstyled">
               <li class="language-item d-flex mb-1">
-                <h5 class="language-name w-50">Dutch</h5>
-                <div class="language-level w-50 border border-info border-2 position-relative">
+                <h5 class="language-name w-50 Myname">Dutch</h5>
+                <div class="language-level w-50 border border-dark border-2 position-relative">
                   <!-- The div below is a progress bar. Choose between w-25, w-50, w-75 and w-100 to show your level of fluency -->
-                  <div class="language-progress position-absolute bg-warning h-100 w-100"></div>
-                  <h6 class="position-absolute w-100 text-center top-0 py-1">Native</h6>
+                  <div class="language-progress position-absolute bg-light h-100 w-100"></div>
+                  <h6 class="position-absolute w-100 text-center top-0 py-1 Myname"><strong>Native</strong></h6>
                 </div>
               </li>
               <li class="language-item d-flex mb-1">
-                <h5 class="language-name w-50">English</h5>
-                <div class="language-level w-50 border border-info border-2 position-relative">
+                <h5 class="language-name w-50 Myname">English</h5>
+                <div class="language-level w-50 border border-dark border-2 position-relative">
                   <!-- The div below is a progress bar. Choose between w-25, w-50, w-75 and w-100 to show your level of fluency -->
-                  <div class="language-progress position-absolute bg-warning h-100 w-75"></div>
-                  <h6 class="position-absolute w-100 text-center top-0 py-1">Full proficiency</h6>
+                  <div class="language-progress position-absolute bg-light h-100 w-75"></div>
+                  <h6 class="position-absolute w-100 text-center top-0 py-1 Myname"><strong>Full proficiency</strong></h6>
                 </div>
               </li>
               <li class="language-item d-flex mb-1">
-                <h5 class="language-name w-50">Spanish</h5>
-                <div class="language-level w-50 border border-info border-2 position-relative">
+                <h5 class="language-name w-50 Myname">Spanish</h5>
+                <div class="language-level w-50 border border-dark border-2 position-relative">
                   <!-- The div below is a progress bar. Choose between w-25, w-50, w-75 and w-100 to show your level of fluency -->
-                  <div class="language-progress position-absolute bg-warning h-100 w-25"></div>
-                  <h6 class="position-absolute w-100 text-center top-0 py-1">Beginner</h6>
+                  <div class="language-progress position-absolute bg-light h-100 w-25"></div>
+                  <h6 class="position-absolute w-100 text-center top-0 py-1 Myname"><strong>Beginner</strong></h6>
                 </div>
               </li>
             </ul>
@@ -252,23 +252,23 @@
           <!-- End of contact details, moving on to other skills -->
 
           <section class="my-3 aside-section">
-            <h2>Other Skills</h2>
+            <h2 class="Myname"><strong>Other Skills</strong></h2>
             <ul class="skill-list list-unstyled">
-              <li class="skill-item">Team player</li>
-              <li class="skill-item">Working with Adobe</li>
-              <li class="skill-item">Driving Licence</li>
+              <li class="skill-item Myname">Team player</li>
+              <li class="skill-item Myname">Working with Adobe</li>
+              <li class="skill-item Myname">Driving Licence</li>
             </ul>
           </section>
 
           <!-- End of other skills, moving on to interest and hobbies -->
 
           <section class="my-3 aside-section">
-            <h2>Interests &amp; Hobbies</h2>
-            <ul class="skill-list list-unstyled">
-              <li class="skill-item">Hanging out with friends&nbsp;</li>
-			  <li class="skill-item">Drawing&nbsp;</li>
-              <li class="skill-item">Netflix Binge-Watcher</li>
-            </ul>
+            <h2 class="Myname"><strong>Interests &amp; Hobbies</strong></h2>
+<ul class="skill-list list-unstyled">
+          <li class="skill-item Myname">Hanging out with friends&nbsp;</li>
+		  <li class="skill-item Myname">Drawing&nbsp;</li>
+          <li class="skill-item Myname">Netflix Binge-Watcher</li>
+          </ul>
           </section>
 
         </aside>
